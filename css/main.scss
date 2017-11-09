@@ -17,12 +17,6 @@ $baseurl: '{{ site.baseurl }}/images';
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-.instaimg img {
-	&.small {
-	  max-width: 10%;
-	}
-  }
-
 	@import 'libs/skel';
 
 	@include skel-breakpoints((
@@ -1859,3 +1853,4 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	@import 'custom.scss';
