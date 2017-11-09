@@ -1,10 +1,10 @@
 /* Magnific Popup CSS */
 
-body {
+/* body {
 	padding-top:5vh;
-}
-
-.instaimg img {margin-bottom:30px;}
+} */
+.instaimg { display: flex; }
+.instaimg img { margin-bottom:30px; }
 .instaimg img:hover {
 	opacity:0.8;
 	-moz-opacity:0.8;
