@@ -10,7 +10,7 @@ $(document).ready(function() {
         resolution: 'standard_resolution',
         accessToken: '47217023.3d3c6ba.5110c05ce10f4cecaa98595564fae9fd',
         sortBy: 'most-recent',
-        template: '<div class="4u 6u(medium) 12u(small) 12u(xsmall) image-fit instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" height="320px" class="img-fluid"/></a></div>',
+        template: '<div class="4u 6u(medium) 6u(small) 12u(xsmall) image-fit instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" height="320px" class="img-fluid"/></a></div>',
     });
     userFeed.run();
     
