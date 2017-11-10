@@ -1,4 +1,4 @@
 # olly
 Jekyll Portfolio Site
 # Demo:
-http://www.beebul.github.io/olly
+http://beebul.github.io/olly
