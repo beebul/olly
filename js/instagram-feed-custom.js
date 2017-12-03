@@ -5,7 +5,7 @@ $(document).ready(function() {
     ////// https://instagram.com/oauth/authorize/?client_id=3d3c6ba884ad40a1956839d49349f9b6&redirect_uri=http://localhost&response_type=token
     var userFeed = new Instafeed({
         get: 'user',
-        userId: 47217023,
+        userId: 47217023, //oj_visual_merc :3937365398
         limit: 36,
         resolution: 'standard_resolution',
         accessToken: '47217023.3d3c6ba.5110c05ce10f4cecaa98595564fae9fd',
