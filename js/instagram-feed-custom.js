@@ -5,10 +5,10 @@ $(document).ready(function() {
     ////// https://instagram.com/oauth/authorize/?client_id=3d3c6ba884ad40a1956839d49349f9b6&redirect_uri=http://localhost&response_type=token
     var userFeed = new Instafeed({
         get: 'user',
-        userId: 47217023, //oj_visual_merc :3937365398
+        userId: 3937365398, //oj_visual_merc
         limit: 36,
         resolution: 'standard_resolution',
-        accessToken: '47217023.3d3c6ba.5110c05ce10f4cecaa98595564fae9fd',
+        accessToken: '3937365398.d823a62.bc29c9634e2d47b78e9889729809cd9a',
         sortBy: 'most-recent',
         template: '<div class="4u 6u(medium) 6u(small) 12u(xsmall) image-fit instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
         //template: '<div class="4u 6u(medium) 6u(small) 12u(xsmall) image-fit instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a><h2><span>{{caption}}</span></h2></div>',
