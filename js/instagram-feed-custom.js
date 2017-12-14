@@ -26,6 +26,10 @@ $(document).ready(function() {
     }
   });
 
-  $('.instafeed').equalHeights();
+    var $elements = $('#gallery');
+    var columns = $elements.detectGridColumns();
+    $elements.equalHeightGrid(columns);
+
+	   $('.instaimg').responsiveEqualHeightGrid();
 
 });
