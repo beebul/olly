@@ -26,10 +26,4 @@ $(document).ready(function() {
     }
   });
 
-    var $elements = $('#gallery');
-    var columns = $elements.detectGridColumns();
-    $elements.equalHeightGrid(columns);
-
-	   $('.instaimg').responsiveEqualHeightGrid();
-
 });
