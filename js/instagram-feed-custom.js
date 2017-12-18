@@ -29,12 +29,6 @@ $(document).ready(function() {
 
   var images = ['banner.jpg', 'banner1.jpg'];
 
-  //$("#page-wrapper").css({background:'linear-gradient(red,blue,red)'});
-
   $('#page-wrapper').css({'background-image': 'url(/olly/images/' + images[Math.floor(Math.random() * images.length)] + ')'});
-  $('#page-wrapper').css({
-    background: 'linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)'
-  });
-  //$("#page-wrapper").css({background:'linear-gradient(red,blue,red)'});
 
 });
