@@ -27,7 +27,9 @@ $(document).ready(function() {
   });
 
   //change banners
-  var images = ['banner.jpg', 'banner1.jpg'];
-  $('#page-wrapper').css({'background-image': 'url(/olly/images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+  //var images = ['banner.jpg'];
+
+  //var images = ['banner.jpg', 'banner1.jpg'];
+  //$('#page-wrapper').css({'background-image': 'url(/olly/images/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
 });
