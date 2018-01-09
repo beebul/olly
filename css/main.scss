@@ -1827,6 +1827,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
+			opacity: 1;
 
 			&::after {
 				//@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0)'));
