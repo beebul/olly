@@ -8,7 +8,7 @@ owner: OJ Visual Merch # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
 #email: your-email@domain.com
 baseurl: "/olly" # the subpath of your site, e.g. /blog
-url: "http://beebul.github.io" # the base hostname & protocol for your site
+url: "http://ojvisual.com" # the base hostname & protocol for your site
 social:
   linkedin-square: https://www.linkedin.com/in/oliver-janaway-37bb9b75/
   instagram: https://www.instagram.com/oj_visual_merch/
