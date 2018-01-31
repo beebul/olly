@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 
 		updateMsg(contactForm, msgLoad);
-		fetch('//formspree.io/xpander@adam.com.au', {
+		fetch('//formspree.io/ojvisual@gmail.com', {
 			method: 'post',
 			mode: 'cors',
 			body: new FormData(contactForm)

@@ -8,7 +8,7 @@ $(function() {
 
 		e.preventDefault();
 		$.ajax({
-			url: '//formspree.io/xpander@adam.com.au',
+			url: '//formspree.io/ojvisual@gmail.com',
 			method: 'POST',
 			data: $(this).serialize(),
 			dataType: 'json',
