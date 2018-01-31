@@ -1743,6 +1743,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	body.is-mobile {
+		body { height: 100%; }
 		#main {
 			> header {
 				background-attachment: scroll;
@@ -1850,6 +1851,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	body.is-mobile {
+		html { height: 100%; }
 		&.landing {
 			#page-wrapper {
 				background: none;
