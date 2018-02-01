@@ -1830,14 +1830,14 @@ $baseurl: '{{ site.baseurl }}/images';
 			opacity: 1;
 
 			&::after {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0)'));
+				//@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0)'));
 				content: '';
 				position: absolute;
 				top: 0;
 				right: 0;
 				bottom: 0;
 				left: 0;
-				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+				//background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
 				//background-image: linear-gradient(to bottom right, #000, #202226);
 				opacity: .6;
 			}
@@ -1875,11 +1875,3 @@ $baseurl: '{{ site.baseurl }}/images';
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-
-
-html {
- height:100%;
-}
-body {
- min-height:100%;
-}
