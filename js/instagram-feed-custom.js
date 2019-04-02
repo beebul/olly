@@ -8,7 +8,8 @@ $(document).ready(function() {
     userId: 3937365398, //oj_visual_merc
     limit: 36,
     resolution: 'standard_resolution',
-    accessToken: '3937365398.ae9b6bb.b2aa6e18bf684db4bf5421a7e32764d5',
+    ////////// accessToken: '3937365398.ae9b6bb.b2aa6e18bf684db4bf5421a7e32764d5',
+    accessToken: '47217023.ba4c844.d10e45cf32fe468b8274e17bf6798f51',
     sortBy: 'most-recent',
     template: '<div class="4u 6u(medium) 6u(small) 12u(xsmall) instaimg"><a href="{{image}}" title="{{caption}}" target="_blank" class="galleryImage"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
     //template: '<div class="4u 6u(medium) 6u(small) 12u(xsmall) image-fit instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a><h2><span>{{caption}}</span></h2></div>',
